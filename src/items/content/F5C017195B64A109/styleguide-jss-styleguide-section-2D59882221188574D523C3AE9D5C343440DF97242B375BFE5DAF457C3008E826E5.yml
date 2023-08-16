@@ -1,0 +1,33 @@
+﻿---
+ID: "c9aec701-c2c6-50de-b959-d7a30829b358"
+Parent: "6d47b582-73b9-56f3-aba9-a0589d3a264d"
+Template: "7601b9d5-f8b9-56ba-9e33-48a75a82d6d5"
+Path: "/sitecore/content/ContosoProject/home/styleguide/Page Components/styleguide-jss-styleguide-section-2D59882221188574D523C3AE9D5C343440DF97242B375BFE5DAF457C3008E826E5"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-ComponentParams-3"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103619Z
+    - ID: "5e836590-4e43-5a12-831e-5d4f2332005e"
+      Hint: description
+      Value: "<p><small>Component params (also called Rendering Parameters) allow storing non-content parameters for a component. These params should be used for more technical options such as CSS class names or structural settings.</small></p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4ba7cf9-8918-499f-9847-77eeb31611c9"
+    - ID: "8d5574f4-0b38-59da-ba6e-5548b112aec0"
+      Hint: heading
+      Value: Component Params
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103619Z

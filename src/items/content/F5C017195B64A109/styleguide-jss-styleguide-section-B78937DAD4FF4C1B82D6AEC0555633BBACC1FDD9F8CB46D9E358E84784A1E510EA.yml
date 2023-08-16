@@ -1,0 +1,38 @@
+﻿---
+ID: "ff61dba2-17c8-53a9-bbcf-2a93b55f6963"
+Parent: "6d47b582-73b9-56f3-aba9-a0589d3a264d"
+Template: "88abb0da-04d1-50f0-bbbf-bd4b62ecaaab"
+Path: "/sitecore/content/ContosoProject/home/styleguide/Page Components/styleguide-jss-styleguide-section-B78937DAD4FF4C1B82D6AEC0555633BBACC1FDD9F8CB46D9E358E84784A1E510EA"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-Image-4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "173d17d7-eed1-503f-a68d-89c7873e0f3d"
+      Hint: sample2
+      Value: |
+        <image mediaid="{6357CF9B-A65B-5DA2-96E5-0387A4E06AB0}" alt="Sitecore JSS Logo" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103617Z
+    - ID: "2ab71408-7eeb-5a69-b145-07fd1e781f32"
+      Hint: sample1
+      Value: |
+        <image mediaid="{92977400-B2FD-55F1-A656-75AB5B0EC6A5}" alt="Sitecore Logo" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd6ba878-1df4-4a27-94ec-3b0165fe0057"
+    - ID: "8d5574f4-0b38-59da-ba6e-5548b112aec0"
+      Hint: heading
+      Value: Image
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103617Z

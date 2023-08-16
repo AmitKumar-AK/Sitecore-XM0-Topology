@@ -1,0 +1,24 @@
+{
+    "namespace": "ContosoProject",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/contosoproject"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/contosoproject"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/contosoproject"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/contosoproject"
+            }
+        ]
+    }
+}

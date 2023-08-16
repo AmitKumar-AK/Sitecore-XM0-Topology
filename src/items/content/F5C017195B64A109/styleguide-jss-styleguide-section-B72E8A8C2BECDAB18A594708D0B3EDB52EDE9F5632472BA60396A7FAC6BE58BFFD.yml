@@ -1,0 +1,39 @@
+﻿---
+ID: "a4b1b685-f4b3-5fde-92ff-769156627c02"
+Parent: "6d47b582-73b9-56f3-aba9-a0589d3a264d"
+Template: "a19ded0f-3c46-5c28-b46d-b56895941f93"
+Path: "/sitecore/content/ContosoProject/home/styleguide/Page Components/styleguide-jss-styleguide-section-B72E8A8C2BECDAB18A594708D0B3EDB52EDE9F5632472BA60396A7FAC6BE58BFFD"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-Text-2"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17c91950-48f1-5d70-bf47-7f7b671a50e4"
+      Hint: sample
+      Value: "This is a sample multi-line text field. <mark>HTML is encoded.</mark> In Sitecore, editors will see a textarea."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103617Z
+    - ID: "31c47d24-a196-5f1a-9f18-43fa4ade86ed"
+      Hint: sample2
+      Value: "This is another sample multi-line text field using rendering options. <mark>HTML supported with encode=false.</mark>"
+    - ID: "5e836590-4e43-5a12-831e-5d4f2332005e"
+      Hint: description
+      Value: "<small>Multi-line text tells Sitecore to use a <code>textarea</code> for editing; consumption in JSS is the same as single-line text.</small>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "882a4c89-b141-4bb3-b8de-3e56a6aa3415"
+    - ID: "8d5574f4-0b38-59da-ba6e-5548b112aec0"
+      Hint: heading
+      Value: "Multi-Line Text"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103617Z

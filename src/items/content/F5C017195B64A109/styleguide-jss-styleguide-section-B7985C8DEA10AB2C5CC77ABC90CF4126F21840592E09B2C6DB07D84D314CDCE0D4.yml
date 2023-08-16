@@ -1,0 +1,52 @@
+﻿---
+ID: "bfb16e0b-34b2-5cd1-a823-d57ee943c5b1"
+Parent: "6d47b582-73b9-56f3-aba9-a0589d3a264d"
+Template: "24407a24-6feb-5acc-825a-57cb9194c1bb"
+Path: "/sitecore/content/ContosoProject/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7985C8DEA10AB2C5CC77ABC90CF4126F21840592E09B2C6DB07D84D314CDCE0D4"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ContentList-11"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19539568-f123-5713-8fbd-08397ccea09e"
+      Hint: localContentList
+      Value: |
+        {DB5B7DA7-9DA5-5620-A2BE-750605CD9B02}
+        {52C10002-841C-5AB9-984D-FDFB6544B244}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103618Z
+    - ID: "5e836590-4e43-5a12-831e-5d4f2332005e"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Content Lists are a way to reference zero or more other content items.
+            Referenced items may be shared.
+            To reference a single content item, use an <em>Item Link</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "706d1f1d-42dd-51d4-8bd5-5bc0c4f7e96a"
+      Hint: sharedContentList
+      Value: |
+        {6BF6F5A9-E1A0-57D1-9A2F-01C7F25F7407}
+        {8F3EAC03-FF21-5ADF-95C5-679FE72EA067}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6f3d09c-f8f1-4f50-9731-0c0a37e7d1a0"
+    - ID: "8d5574f4-0b38-59da-ba6e-5548b112aec0"
+      Hint: heading
+      Value: Content List
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103618Z

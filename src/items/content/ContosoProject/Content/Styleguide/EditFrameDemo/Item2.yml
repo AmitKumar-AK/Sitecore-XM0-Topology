@@ -1,0 +1,30 @@
+﻿---
+ID: "cf2450c1-5160-501c-8f7c-4ab70b8525d3"
+Parent: "5ce9bc21-e2d7-5a04-bece-cad59ee40bb4"
+Template: "426ee772-eb2f-5a8b-b3e2-c2a6f737c999"
+Path: /sitecore/content/ContosoProject/Content/Styleguide/EditFrameDemo/Item2
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: EditFrame Demo List Item 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103613Z
+    - ID: "5e372036-d6ef-589b-b6e4-78b49e70fa33"
+      Hint: title
+      Value: Edit Frame Demo List Item 2
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d6e7479-46fe-4fa9-b019-b0d42847d9ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103613Z

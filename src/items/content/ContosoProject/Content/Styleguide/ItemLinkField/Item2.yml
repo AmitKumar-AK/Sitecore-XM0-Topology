@@ -1,0 +1,30 @@
+﻿---
+ID: "3ff9870d-74b5-5f2d-ae71-92502ee25815"
+Parent: "14443c89-1841-540a-bc4e-b196f1e05c74"
+Template: "c9a8a6cf-e5ba-56f9-a107-6a7d7387b2c6"
+Path: /sitecore/content/ContosoProject/Content/Styleguide/ItemLinkField/Item2
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Styleguide Item Link Item 2 (Shared)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103613Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7343cc8-952d-4646-ad3a-e4f78c592e3a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103613Z
+    - ID: "f955ed8d-26ba-5967-9e53-5655f0b6cdc1"
+      Hint: textField
+      Value: ItemLink Demo (Shared) Item 2 Text Field

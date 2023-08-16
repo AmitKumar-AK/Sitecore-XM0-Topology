@@ -1,0 +1,16 @@
+{
+    "namespace": "ContosoProject-Content",
+    "references": [ "ContosoProject" ],
+    "items": {
+        "includes": [
+            {
+                "name": "content",
+                "path": "/sitecore/content/ContosoProject"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/contosoproject"
+            }
+        ]
+    }
+}

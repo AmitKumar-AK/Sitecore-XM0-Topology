@@ -1,0 +1,43 @@
+﻿---
+ID: "c5b9c249-4e04-59a2-b878-9f8433220e8a"
+Parent: "2abef66e-d342-5113-9b99-f551624508d0"
+Template: "544c9bca-32d6-50aa-81dc-6ed6e0e1095a"
+Path: "/sitecore/content/ContosoProject/home/graphql/sample-1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9157CC8C-5760-5114-9F2D-93CBE39B30DC}"
+              p:after="*[1=2]"
+              s:rname="ContentBlock"
+              s:ds="{C5C7F407-F916-56E2-B235-FF350B21205E}"
+              s:id="{7FC4EEAE-AE57-5AC8-9023-BEAFE5079D7B}"
+              s:par=""
+              s:ph="/jss-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103615Z
+    - ID: "7602cc94-f641-5ece-b8a8-4d6ee0f86f99"
+      Hint: pageTitle
+      Value: Sample 1 Page Title
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69267c8e-9332-4d31-9c81-00e82e7704f8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103615Z

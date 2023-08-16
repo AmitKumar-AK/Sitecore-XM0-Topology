@@ -1,0 +1,31 @@
+﻿---
+ID: "75fcb72e-b31d-5dac-8f9f-3bc3a753aab9"
+Parent: "4160bfac-061d-5077-ab13-f0d77c958688"
+Template: "4160bfac-061d-5077-ab13-f0d77c958688"
+Path: "/sitecore/templates/Project/contosoproject/Styleguide-FieldUsage-RichText/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103558Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63f930e0-9159-4c91-ad16-b3e3e9b07bfc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103558Z

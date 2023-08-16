@@ -1,0 +1,33 @@
+﻿---
+ID: "3bd62656-0290-57db-88d3-cdd4c5b7a97c"
+Parent: "6d47b582-73b9-56f3-aba9-a0589d3a264d"
+Template: "649c893c-ba13-5fc6-bf79-ab8c7fb9a473"
+Path: "/sitecore/content/ContosoProject/home/styleguide/Page Components/styleguide-jss-tabs-538E4831-F157-50BB-AC74-277FCAC9FDDB-0-Styleguide-Layout-Tabs-Tab-1"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-Layout-Tabs-Tab-1"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103619Z
+    - ID: "4645d168-8189-5881-9169-c99b526fa1f0"
+      Hint: title
+      Value: Tab 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e12c217e-bcf8-4c51-a7e9-6bf170d06af9"
+    - ID: "b6bfe8cb-4d01-5470-a19f-832f7384bce7"
+      Hint: content
+      Value: "<p>Tab 1 contents!</p>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103619Z

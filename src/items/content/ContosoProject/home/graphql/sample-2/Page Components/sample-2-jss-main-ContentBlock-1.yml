@@ -1,0 +1,35 @@
+﻿---
+ID: "1b9da69d-188f-5a60-82f3-9988d70b822f"
+Parent: "077fe149-858e-5b13-9b53-85725a87c4d6"
+Template: "f5ffdc9c-3cfb-52e1-a402-ecd8e7ef141e"
+Path: "/sitecore/content/ContosoProject/home/graphql/sample-2/Page Components/sample-2-jss-main-ContentBlock-1"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "ContentBlock-1"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a638aa2-4fb3-50bd-b7bd-6c22e787b075"
+      Hint: content
+      Value: |
+        <p>A child route here to illustrate the power of GraphQL queries. <a href="/graphql">Back to GraphQL route</a></p>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103615Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01bcbb74-dfff-4cf8-9e5f-2916a19698f8"
+    - ID: "8d71f9e7-6ca0-52b0-b2c2-464658f28e30"
+      Hint: heading
+      Value: GraphQL Sample 2
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103616Z

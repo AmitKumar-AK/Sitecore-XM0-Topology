@@ -1,0 +1,56 @@
+﻿---
+ID: "eda3f577-a941-57d8-b23d-cb7a2954f588"
+Parent: "281ea753-d3df-56f7-a0e9-c9c231a04e7f"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/contosoproject/jss-styleguide-section"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "jss-styleguide-section"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {7F21FDC1-9443-5195-9AC8-B1747D5F4F0C}
+    {968DF04E-4F52-5194-B303-709312ACE54E}
+    {8BF4F7F6-79A5-59A6-A4ED-6BC83F29EA30}
+    {A8B3AA9D-147B-53E1-98BD-3426489098BE}
+    {B3BB79B0-2250-5CCC-BFAD-E4DFC098DD9C}
+    {E8067397-C5F1-5352-BDCF-4E5D60F5B3A7}
+    {0C232E18-4B09-5B4E-A0E5-4DBB4F53FDF8}
+    {C14AC884-B198-5914-AC06-F2CFEB9CE53F}
+    {02D5DB9C-E809-586B-8082-B8393E44DD73}
+    {B6B58314-DC46-52F4-A422-C7FB0BF17C3E}
+    {C012FDDB-83E0-5BD2-874E-7CF13328E28A}
+    {C2ABA43E-F17A-580A-A613-580788B79CF3}
+    {9E609AE1-74C9-5E12-B0E2-BCFAB317F7B1}
+    {3B3B69C3-F080-5090-94CA-E49CED8B8DEF}
+    {96EA529D-06EC-5DA7-B062-39D1A229DDDA}
+    {98977736-0BE2-5D84-B012-4FE2B70DA290}
+    {7B74BB5A-D851-5D26-A842-31404551B7D1}
+    {3A31E675-CFD0-57B3-8C84-19DB9CB36813}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230815T103608Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fdef36de-d02f-4751-956f-61200019445e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230815T103612Z
