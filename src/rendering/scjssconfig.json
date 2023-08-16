@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "..\\..\\docker\\deploy\\platform\\",
+    "apiKey": "D5662DF6-2BF6-4109-816D-9665C353B3B6",
+    "deploySecret": "DE0EE670BFAA4F638EB4CB4710D15340",
+    "deployUrl": "https://cm.contosoproject.localhost/sitecore/api/jss/import",
+    "layoutServiceHost": "https://cm.contosoproject.localhost"
+  }
+}
