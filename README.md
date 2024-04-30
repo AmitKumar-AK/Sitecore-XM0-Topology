@@ -17,12 +17,9 @@ This repository uses:
 
 * Sitecore Images Version <strong>10.4.0-ltsc2022</strong>
 * Sitecore Management Services Image <strong>5.2.113-ltsc2022</strong>
-* Sitecore Docker Tools (TOOLS_IMAGE) Image <strong>10.3.0-ltsc2022
-</strong>
-* Traefik Image <strong>v2.9.8-windowsservercore-1809
-</strong>
-* Sitecore Headless Services Image <strong>21.0-1809
-</strong>
+* Sitecore Docker Tools (TOOLS_IMAGE) Image <strong>10.3.0-ltsc2022</strong>
+* Traefik Image <strong>v2.9.8-windowsservercore-1809</strong>
+* Sitecore Headless Services Image <strong>21.0-1809</strong>
 
 ## Configured for Sitecore-based workflow
 On first run, the JSS Styleguide sample will be imported via `jss deploy items`, then serialized via `sitecore ser pull`. It is intended that you work directly in Sitecore to define templates and renderings, instead of using the code-first approach. This is also known as "Sitecore-first" JSS workflow. To support this:
