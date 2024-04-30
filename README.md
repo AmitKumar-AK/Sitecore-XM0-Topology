@@ -13,6 +13,14 @@ on implementing a modular solution architecture.
 
 *This repo will provide Sitecore Container images for XP0, XP1, XM0 and XM1 topologies. With [`Sitecore XM0 Topology`](https://doc.sitecore.com/xp/en/developers/103/sitecore-experience-manager/sitecore-configurations-and-topology-for-azure.html#xm-single) Container Images, you can encapsulate the entire [Sitecore XM](https://doc.sitecore.com/xp/en/users/latest/sitecore-experience-platform/experience-manager.html) environment, including its dependencies, configurations, and code, into a lightweight, isolated container.*
 
+This repository uses:
+
+* Sitecore Images Version <strong>10.4.0-ltsc2022</strong>
+* Sitecore Management Services Image <strong>5.2.113-ltsc2022</strong>
+* Sitecore Docker Tools (TOOLS_IMAGE) Image <strong>10.3.0-ltsc2022</strong>
+* Traefik Image <strong>v2.9.8-windowsservercore-1809</strong>
+* Sitecore Headless Services Image <strong>21.0-1809</strong>
+
 ## Configured for Sitecore-based workflow
 On first run, the JSS Styleguide sample will be imported via `jss deploy items`, then serialized via `sitecore ser pull`. It is intended that you work directly in Sitecore to define templates and renderings, instead of using the code-first approach. This is also known as "Sitecore-first" JSS workflow. To support this:
 

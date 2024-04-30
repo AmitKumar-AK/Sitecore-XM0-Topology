@@ -99,6 +99,7 @@ services:
   # Mount our Solr data folder and use our retagged Solr image.
   # Some modules (like SXA) also require additions to the Solr image.
   solr-init:
+    isolation: ${SERVICE_ISOLATION}
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-xm1-solr-init:${VERSION:-latest}
     build:
       context: ../../docker/build/solr-init

@@ -27,7 +27,7 @@ services:
         condition: service_healthy
   mssql:
     isolation: ${ISOLATION}
-    image: ${SITECORE_DOCKER_REGISTRY}nonproduction/mssql-developer:2017-${EXTERNAL_IMAGE_TAG_SUFFIX}
+    image: ${SITECORE_DOCKER_REGISTRY}nonproduction/mssql-developer:2022-${EXTERNAL_IMAGE_TAG_SUFFIX}
     environment:
       SA_PASSWORD: ${SQL_SA_PASSWORD}
       ACCEPT_EULA: "Y"
@@ -39,7 +39,7 @@ services:
         target: c:\data
   mssql-init:
     isolation: ${ISOLATION}
-    image: ${SITECORE_DOCKER_REGISTRY}sitecore-${TOPOLOGY}-mssql-init:${SITECORE_VERSION}
+    image: ${SITECORE_DOCKER_REGISTRY}sitecore-${MSSQL_INIT_TOPOLOGY}-mssql-init:${SITECORE_VERSION}
     environment:
       SQL_SERVER: ${SQL_SERVER}
       SQL_ADMIN_LOGIN: ${SQL_SA_LOGIN}
