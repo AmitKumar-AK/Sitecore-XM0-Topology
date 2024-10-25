@@ -54,7 +54,7 @@ else {
     }
 
     Write-Host "Deploying JSS application..." -ForegroundColor Green
-    Push-Location src\rendering
+    Push-Location src\rendering-new
     try {
         jss deploy items -c -d
     }

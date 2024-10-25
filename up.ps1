@@ -43,7 +43,7 @@ if (-not $envCheck) {
 
 
 Write-Host "`n`n Run npm ci command on rendering" -ForegroundColor Cyan
-Push-Location src\rendering\
+Push-Location src\rendering-new\
 npm install --silent
 npm ci --silent
 Pop-Location
@@ -124,7 +124,7 @@ if (Test-Path .\src\items\content) {
     }
 
     Write-Host "Deploying JSS application..." -ForegroundColor Green
-    Push-Location src\rendering
+    Push-Location src\rendering-new
     try {
         jss deploy items -c -d
     } finally {
