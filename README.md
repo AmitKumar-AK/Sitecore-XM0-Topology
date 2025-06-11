@@ -32,7 +32,7 @@ This repository uses:
 * Sitecore Docker Tools (TOOLS_IMAGE) Image <strong>10.4.0-ltsc2022</strong>
 * Traefik Image <strong>v2.9.8-windowsservercore-1809</strong>
 * Sitecore Headless Services Image <strong>22.0.7-ltsc2022</strong>
-* itecore PowerShell Extensions (SPE) <strong>7.0-ltsc2022</strong>
+* Sitecore PowerShell Extensions (SPE) <strong>7.0-ltsc2022</strong>
 * Sitecore Experience Accelerator (SXA) <strong>10.4.0-ltsc2022</strong>
 
 ## Configured for Sitecore-based workflow
