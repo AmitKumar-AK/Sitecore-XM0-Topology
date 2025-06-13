@@ -50,6 +50,7 @@ Pop-Location
 
 Push-Location $workingDirectoryPath
 
+
 # Build all containers in the Sitecore instance, forcing a pull of latest base containers
 Write-Host "Building containers..." -ForegroundColor Green
 docker-compose build
@@ -62,6 +63,9 @@ Write-Host "Starting Sitecore environment..." -ForegroundColor Green
 docker-compose up -d
 
 Pop-Location
+
+# Execute the Sitecore Identity Server 8 upgrade script
+.\execute-mssql-script.ps1 -filePath $workingDirectoryPath"\.env"
 
 # Wait for Traefik to expose CM route
 Write-Host "Waiting for CM to become available..." -ForegroundColor Green

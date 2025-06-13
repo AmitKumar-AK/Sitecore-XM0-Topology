@@ -28,6 +28,7 @@ With these container images, you can quickly spin up a complete Sitecore environ
 This repository uses:
 
 * Sitecore Images Version <strong>10.4.0-ltsc2022</strong>
+* Sitecore Identity Server <strong>8.0</strong>
 * Sitecore Management Services Image <strong>5.2.113-ltsc2022</strong>
 * Sitecore Docker Tools (TOOLS_IMAGE) Image <strong>10.4.0-ltsc2022</strong>
 * Traefik Image <strong>v2.9.8-windowsservercore-1809</strong>
