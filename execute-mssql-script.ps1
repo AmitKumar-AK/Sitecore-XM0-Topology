@@ -102,6 +102,6 @@ Write-Host "Executing SQL script using sqlcmd..." -ForegroundColor Cyan
 # Run the script using sqlcmd from host
 # Based on Sitecore Identity Server 8 Upgrade Guide https://scdp.blob.core.windows.net/downloads/Sitecore%20Identity/8x/Sitecore_Identity_Server_8016/Sitecore_Identity_Server_Upgrade-DockerCompose-8.0.pdf
 
-sqlcmd -S localhost,14330 -U $saLogin -P $sqlPassword -d "Sitecore.Core" -i $sqlFiltePath
+sqlcmd -S localhost,14330 -U $saLogin -P $saPassword -d "Sitecore.Core" -i $sqlFiltePath
 
 Write-Host "Done  - MSSQL container SQL script." -ForegroundColor Green
