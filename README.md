@@ -1,5 +1,22 @@
 # Sitecore Topology Container Images (XM0, XM1, XP0, XP1) for Headless SXA
 
+[![GitHub license](https://img.shields.io/github/license/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)](https://github.com/amitkumar-ak/Sitecore-XM0-Topology/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+[![GitHub Stars](https://img.shields.io/github/stars/amitkumar-ak/Sitecore-XM0-Topology?label=GitHub%20Stars&style=for-the-badge)](https://github.com/amitkumar-ak/Sitecore-XM0-Topology/stargazers)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAmitKumar-AK%2FSitecore-XM0-Topology&label=Visitors&countColor=%23263759&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/amitkumar-ak/Sitecore-XM0-Topology?style=for-the-badge)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/amitkumar-ak/Sitecore-XM0-Topology.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/amitkumar-ak/Sitecore-XM0-Topology.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/network/)
+[![GitHub stars](https://img.shields.io/github/stars/amitkumar-ak/Sitecore-XM0-Topology.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/stargazers/)
+
+
+
 ## Overview
 
 This repository provides ready-to-use Docker container images and configuration for the following Sitecore topologies, all supporting Headless SXA:
