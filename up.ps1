@@ -50,6 +50,7 @@ Pop-Location
 
 Push-Location $workingDirectoryPath
 
+
 # Build all containers in the Sitecore instance, forcing a pull of latest base containers
 Write-Host "Building containers..." -ForegroundColor Green
 docker-compose build
@@ -81,6 +82,10 @@ if (-not $status.status -eq "enabled") {
     Write-Error "Timeout waiting for Sitecore CM to become available via Traefik proxy. Check CM container logs."
 }
 
+# Execute the Sitecore Identity Server 8 upgrade script after the environment is up
+.\execute-mssql-script.ps1 -filePath $workingDirectoryPath"\.env"
+
+# Log into Sitecore using the CLI
 if ($ByPass) {
   dotnet sitecore login --cm https://cm.contosoproject.localhost/ --auth https://id.contosoproject.localhost/ --allow-write true --client-id "SitecoreCLIServer" --client-secret "testsecret" --client-credentials true
 }else {

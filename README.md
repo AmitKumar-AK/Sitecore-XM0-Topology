@@ -1,4 +1,5 @@
-# Sitecore XM0 Topology
+# Sitecore Topology Container Images (XM0, XM1, XP0, XP1) for Headless SXA
+
 [![GitHub license](https://img.shields.io/github/license/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)](https://github.com/amitkumar-ak/Sitecore-XM0-Topology/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/amitkumar-ak/Sitecore-XM0-Topology.svg?style=for-the-badge)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/issues/)
@@ -13,26 +14,44 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/amitkumar-ak/Sitecore-XM0-Topology.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/watchers/)
 [![GitHub forks](https://img.shields.io/github/forks/amitkumar-ak/Sitecore-XM0-Topology.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/network/)
 [![GitHub stars](https://img.shields.io/github/stars/amitkumar-ak/Sitecore-XM0-Topology.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/amitkumar-ak/Sitecore-XM0-Topology/stargazers/)
-## About this Solution
-This solution is designed to help developers learn and get started quickly
-with Sitecore Containers, the Sitecore Next.js SDK, and Sitecore
-Content Serialization.
 
-For simplicity, this solution does not implement Sitecore Helix conventions for
-solution architecture. As you begin building your Sitecore solution,
-you should review [Sitecore Helix](https://helix.sitecore.net/) and the
-[Sitecore Helix Examples](https://sitecore.github.io/Helix.Examples/) for guidance
-on implementing a modular solution architecture.
 
-*This repo will provide Sitecore Container images for XP0, XP1, XM0 and XM1 topologies. With [`Sitecore XM0 Topology`](https://doc.sitecore.com/xp/en/developers/103/sitecore-experience-manager/sitecore-configurations-and-topology-for-azure.html#xm-single) Container Images, you can encapsulate the entire [Sitecore XM](https://doc.sitecore.com/xp/en/users/latest/sitecore-experience-platform/experience-manager.html) environment, including its dependencies, configurations, and code, into a lightweight, isolated container.*
+
+## Overview
+
+This repository provides ready-to-use Docker container images and configuration for the following Sitecore topologies, all supporting Headless SXA:
+
+- **Sitecore XM0 Topology**
+- **Sitecore XM1 Topology**
+- **Sitecore XP0 Topology**
+- **Sitecore XP1 Topology**
+
+With these container images, you can quickly spin up a complete Sitecore environment—including all dependencies, configurations, and code—in isolated containers for local development or testing.
+
+> **Detailed XM0 Topology Information:**  
+> For a comprehensive guide, see [Sitecore XM0 Topology Details](https://amitkumarmca04.blogspot.com/2023/08/sitecore-xm0-topology.html).
+
+---
+
+## Features
+
+- **Supports Headless SXA**: All topologies are pre-configured for Headless SXA development.
+- **Multiple Topologies**: Choose between XM0, XM1, XP0, and XP1 based on your project needs.
+- **Modern Sitecore Versions**: Uses the latest Sitecore container images.
+- **Easy Initialization**: Scripts provided for environment setup, certificate generation, and container orchestration.
+- **Next.js SDK Integration**: Includes sample Next.js rendering host for headless development.
+- **Content Serialization**: Pre-configured for Sitecore Content Serialization.
 
 This repository uses:
 
 * Sitecore Images Version <strong>10.4.0-ltsc2022</strong>
+* Sitecore Identity Server <strong>8.0</strong>
 * Sitecore Management Services Image <strong>5.2.113-ltsc2022</strong>
-* Sitecore Docker Tools (TOOLS_IMAGE) Image <strong>10.3.0-ltsc2022</strong>
+* Sitecore Docker Tools (TOOLS_IMAGE) Image <strong>10.4.0-ltsc2022</strong>
 * Traefik Image <strong>v2.9.8-windowsservercore-1809</strong>
-* Sitecore Headless Services Image <strong>21.0-1809</strong>
+* Sitecore Headless Services Image <strong>22.0.7-ltsc2022</strong>
+* Sitecore PowerShell Extensions (SPE) <strong>7.0-ltsc2022</strong>
+* Sitecore Experience Accelerator (SXA) <strong>10.4.0-ltsc2022</strong>
 
 ## Configured for Sitecore-based workflow
 On first run, the JSS Styleguide sample will be imported via `jss deploy items`, then serialized via `sitecore ser pull`. It is intended that you work directly in Sitecore to define templates and renderings, instead of using the code-first approach. This is also known as "Sitecore-first" JSS workflow. To support this:
@@ -54,14 +73,14 @@ defined in Sitecore's [scope of support](https://kb.sitecore.net/articles/463549
 * .NET 6.0 SDK
 * .NET Framework 4.8 SDK
 * Visual Studio 2019
-* Docker for Windows, with Windows Containers enabled
+* Docker for Windows (tested on `4.34.3 (170107)`), with Windows Containers enabled
 
 See Sitecore Containers documentation for more information on system requirements.
 
 ## What's Included
-* A `docker-compose` environment for each Sitecore topology (XPO, XP1, XM1)
-  with an ASP.NET Core rendering host.
-  > The containers structure is organized by specific topology environment (see `run\sitecore-xp0`, `run\sitecore-xp1`, `run\sitecore-xm1`).
+* A `docker-compose` environment for each Sitecore topology (`XM0`, `XM1`,`XP0` and `XP1`)
+  with an `Next.JS` rendering host.
+  > The containers structure is organized by specific topology environment (see `run\sitecore-xm0`, `run\sitecore-xm1` `run\sitecore-xp0`, `run\sitecore-xp1`).
   > The included `docker-compose.yml` is a stock environment from the Sitecore
   > Container Support Package. All changes/additions for this solution are included
   > in the `docker-compose.override.yml`.
@@ -152,3 +171,17 @@ See Sitecore Containers documentation for more information on system requirement
 * You can also run the Next.js application directly using `npm` commands within `src\rendering`.
 * Debugging of the Next.js application is possible by using the `start:connected` or `start` scripts from the Next.js `package.json`, and the pre-configured *Attach to Process* VS Code launch configuration.
 * Review README's found in the projects and throughout the solution for additional information.
+
+## License
+
+This repository is provided as-is for learning and development purposes. Please ensure you have a valid Sitecore license file.
+
+---
+
+## Credits
+
+Created and maintained by [Amit Kumar](https://www.youtube.com/@AmitKumar-Info?sub_confirmation=1).
+
+---
+
+*For questions or contributions, please open an issue or submit a pull request.*

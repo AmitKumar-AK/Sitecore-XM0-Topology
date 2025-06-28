@@ -87,6 +87,7 @@ services:
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-mssql-init:${SITECORE_VERSION}
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
+        SPE_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-spe-assets:${SPE_VERSION}
 
   # Mount our Solr data folder and use our retagged Solr image.
   # Some modules (like SXA) also require additions to the Solr image.
@@ -104,15 +105,16 @@ services:
       context: ../../docker/build/solr-init
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-solr-init:${SITECORE_VERSION}
+        SXA_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-sxa-xm1-assets:${SXA_VERSION}
 
   # Use our retagged Identity Server image.
   # Configure for a mounted license file instead of using SITECORE_LICENSE.
   id:
-    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-id7:${VERSION:-latest}
+    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-id8:${VERSION:-latest}
     build:
       context: ../../docker/build/id
       args:
-        PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-id7:${SITECORE_VERSION}
+        PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-identity:${SITECORE_ID_VERSION}
     volumes:
       - ${HOST_LICENSE_FOLDER}:c:\license
     environment:
@@ -127,9 +129,11 @@ services:
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-cd:${SITECORE_VERSION}
         SOLUTION_IMAGE: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
-        TOOLS_IMAGE: ${TOOLS_IMAGE}
+        TOOLS_IMAGE: ${SITECORE_TOOLS_REGISTRY}sitecore-docker-tools-assets:${TOOLS_VERSION}
         MANAGEMENT_SERVICES_IMAGE: ${MANAGEMENT_SERVICES_IMAGE}
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
+        SPE_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-spe-assets:${SPE_VERSION}
+        SXA_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-sxa-xm1-assets:${SXA_VERSION}
     depends_on:
       - solution
     volumes:
@@ -149,9 +153,11 @@ services:
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-cm:${SITECORE_VERSION}
         SOLUTION_IMAGE: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
-        TOOLS_IMAGE: ${TOOLS_IMAGE}
+        TOOLS_IMAGE: ${SITECORE_TOOLS_REGISTRY}sitecore-docker-tools-assets:${TOOLS_VERSION}
         MANAGEMENT_SERVICES_IMAGE: ${MANAGEMENT_SERVICES_IMAGE}
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
+        SPE_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-spe-assets:${SPE_VERSION}
+        SXA_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-sxa-xm1-assets:${SXA_VERSION}
     depends_on:
       - solution
     volumes:
@@ -166,4 +172,4 @@ services:
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,HttpErrorsDetailed,DebugOn,DiagnosticsOff,InitMessagesOff,RobotDetectionOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
-    entrypoint: powershell.exe -Command "& C:\tools\entrypoints\iis\Development.ps1"
+    entrypoint: powershell.exe -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"
